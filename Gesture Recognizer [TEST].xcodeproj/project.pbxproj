@@ -16,9 +16,9 @@
 		E9EAD61B1E4B009E0001E28D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EAD6191E4B009E0001E28D /* Interface.storyboard */; };
 		E9EAD61D1E4B009E0001E28D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EAD61C1E4B009E0001E28D /* Assets.xcassets */; };
 		E9EAD6241E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E9EAD6231E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		E9EAD6291E4B009E0001E28D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EAD6281E4B009E0001E28D /* InterfaceController.swift */; };
 		E9EAD62B1E4B009E0001E28D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EAD62A1E4B009E0001E28D /* ExtensionDelegate.swift */; };
 		E9EAD62D1E4B009E0001E28D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EAD62C1E4B009E0001E28D /* Assets.xcassets */; };
+		E9EAD63D1E4B16BC0001E28D /* GestureRecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EAD63C1E4B16BC0001E28D /* GestureRecognizerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,10 +76,10 @@
 		E9EAD61C1E4B009E0001E28D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9EAD61E1E4B009E0001E28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9EAD6231E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Gesture Recognizer [TEST] WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9EAD6281E4B009E0001E28D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		E9EAD62A1E4B009E0001E28D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		E9EAD62C1E4B009E0001E28D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9EAD62E1E4B009E0001E28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9EAD63C1E4B16BC0001E28D /* GestureRecognizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GestureRecognizerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +146,7 @@
 		E9EAD6271E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				E9EAD6281E4B009E0001E28D /* InterfaceController.swift */,
+				E9EAD63C1E4B16BC0001E28D /* GestureRecognizerViewController.swift */,
 				E9EAD62A1E4B009E0001E28D /* ExtensionDelegate.swift */,
 				E9EAD62C1E4B009E0001E28D /* Assets.xcassets */,
 				E9EAD62E1E4B009E0001E28D /* Info.plist */,
@@ -302,7 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9EAD62B1E4B009E0001E28D /* ExtensionDelegate.swift in Sources */,
-				E9EAD6291E4B009E0001E28D /* InterfaceController.swift in Sources */,
+				E9EAD63D1E4B16BC0001E28D /* GestureRecognizerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

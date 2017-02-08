@@ -1,15 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vlC-f8-Ix0">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11055"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
-        <scene sceneID="aou-V4-d1y">
+        <!--Gesture Recognizer View Controller-->
+        <scene sceneID="2bv-oE-VUm">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="vlC-f8-Ix0" customClass="GestureRecognizerViewController" customModule="Gesture_Recognizer__TEST__WatchKit_Extension">
+                    <items>
+                        <spriteKitScene width="1" height="1" alignment="left" id="21m-se-4vE">
+                            <gestureRecognizers>
+                                <tapGestureRecognizer id="i2f-C6-bjR">
+                                    <connections>
+                                        <action selector="handleGestureWithGestureRecognizer:" destination="vlC-f8-Ix0" id="Mbe-hR-6hJ"/>
+                                    </connections>
+                                </tapGestureRecognizer>
+                                <longPressGestureRecognizer id="DX4-vx-6PC">
+                                    <connections>
+                                        <action selector="handleGestureWithGestureRecognizer:" destination="vlC-f8-Ix0" id="tdQ-Rf-7Oe"/>
+                                    </connections>
+                                </longPressGestureRecognizer>
+                                <panGestureRecognizer id="MeN-Oi-LQp">
+                                    <connections>
+                                        <action selector="handleGestureWithGestureRecognizer:" destination="vlC-f8-Ix0" id="OUk-XC-Yde"/>
+                                    </connections>
+                                </panGestureRecognizer>
+                            </gestureRecognizers>
+                        </spriteKitScene>
+                        <separator alignment="left" id="0pI-vX-O3d"/>
+                        <spriteKitScene width="1" height="1" alignment="left" id="xPP-by-Piu">
+                            <gestureRecognizers>
+                                <swipeGestureRecognizer direction="2" id="dhu-o7-YVS" userLabel="Left Swipe Gesture Recognizer">
+                                    <connections>
+                                        <action selector="handleGestureWithGestureRecognizer:" destination="vlC-f8-Ix0" id="Kvu-wq-w2g"/>
+                                    </connections>
+                                </swipeGestureRecognizer>
+                                <swipeGestureRecognizer id="hTo-3d-SxC" userLabel="Right Swipe Gesture Recognizer">
+                                    <connections>
+                                        <action selector="handleGestureWithGestureRecognizer:" destination="vlC-f8-Ix0" id="vBu-Ca-5vL"/>
+                                    </connections>
+                                </swipeGestureRecognizer>
+                            </gestureRecognizers>
+                        </spriteKitScene>
+                    </items>
+                    <connections>
+                        <outlet property="gestureSceneInterface" destination="21m-se-4vE" id="1PU-IG-y0W"/>
+                        <outlet property="swipeSceneInterface" destination="xPP-by-Piu" id="gt7-tU-I2K"/>
+                    </connections>
+                </controller>
             </objects>
+            <point key="canvasLocation" x="236" y="83"/>
         </scene>
     </scenes>
 </document>
