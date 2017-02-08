@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9EAD6061E4B009E0001E28D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EAD6051E4B009E0001E28D /* AppDelegate.swift */; };
+		E9EAD6081E4B009E0001E28D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EAD6071E4B009E0001E28D /* ViewController.swift */; };
+		E9EAD60B1E4B009E0001E28D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EAD6091E4B009E0001E28D /* Main.storyboard */; };
+		E9EAD60D1E4B009E0001E28D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EAD60C1E4B009E0001E28D /* Assets.xcassets */; };
+		E9EAD6101E4B009E0001E28D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EAD60E1E4B009E0001E28D /* LaunchScreen.storyboard */; };
+		E9EAD6151E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E9EAD6141E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit App.app */; };
+		E9EAD61B1E4B009E0001E28D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9EAD6191E4B009E0001E28D /* Interface.storyboard */; };
+		E9EAD61D1E4B009E0001E28D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EAD61C1E4B009E0001E28D /* Assets.xcassets */; };
+		E9EAD6241E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E9EAD6231E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E9EAD6291E4B009E0001E28D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EAD6281E4B009E0001E28D /* InterfaceController.swift */; };
+		E9EAD62B1E4B009E0001E28D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EAD62A1E4B009E0001E28D /* ExtensionDelegate.swift */; };
+		E9EAD62D1E4B009E0001E28D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9EAD62C1E4B009E0001E28D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9EAD6161E4B009E0001E28D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9EAD5FA1E4B009E0001E28D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9EAD6131E4B009E0001E28D;
+			remoteInfo = "Gesture Recognizer [TEST] WatchKit App";
+		};
+		E9EAD6251E4B009E0001E28D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9EAD5FA1E4B009E0001E28D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9EAD6221E4B009E0001E28D;
+			remoteInfo = "Gesture Recognizer [TEST] WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9EAD6341E4B009E0001E28D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E9EAD6241E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EAD6381E4B009E0001E28D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E9EAD6151E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E9EAD6021E4B009E0001E28D /* Gesture Recognizer [TEST].app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gesture Recognizer [TEST].app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EAD6051E4B009E0001E28D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9EAD6071E4B009E0001E28D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9EAD60A1E4B009E0001E28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9EAD60C1E4B009E0001E28D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9EAD60F1E4B009E0001E28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9EAD6111E4B009E0001E28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9EAD6141E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gesture Recognizer [TEST] WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EAD61A1E4B009E0001E28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E9EAD61C1E4B009E0001E28D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9EAD61E1E4B009E0001E28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9EAD6231E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Gesture Recognizer [TEST] WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9EAD6281E4B009E0001E28D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		E9EAD62A1E4B009E0001E28D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E9EAD62C1E4B009E0001E28D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9EAD62E1E4B009E0001E28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9EAD5FF1E4B009E0001E28D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EAD6201E4B009E0001E28D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9EAD5F91E4B009E0001E28D = {
+			isa = PBXGroup;
+			children = (
+				E9EAD6041E4B009E0001E28D /* Gesture Recognizer [TEST] */,
+				E9EAD6181E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit App */,
+				E9EAD6271E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension */,
+				E9EAD6031E4B009E0001E28D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9EAD6031E4B009E0001E28D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9EAD6021E4B009E0001E28D /* Gesture Recognizer [TEST].app */,
+				E9EAD6141E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit App.app */,
+				E9EAD6231E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9EAD6041E4B009E0001E28D /* Gesture Recognizer [TEST] */ = {
+			isa = PBXGroup;
+			children = (
+				E9EAD6051E4B009E0001E28D /* AppDelegate.swift */,
+				E9EAD6071E4B009E0001E28D /* ViewController.swift */,
+				E9EAD6091E4B009E0001E28D /* Main.storyboard */,
+				E9EAD60C1E4B009E0001E28D /* Assets.xcassets */,
+				E9EAD60E1E4B009E0001E28D /* LaunchScreen.storyboard */,
+				E9EAD6111E4B009E0001E28D /* Info.plist */,
+			);
+			path = "Gesture Recognizer [TEST]";
+			sourceTree = "<group>";
+		};
+		E9EAD6181E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E9EAD6191E4B009E0001E28D /* Interface.storyboard */,
+				E9EAD61C1E4B009E0001E28D /* Assets.xcassets */,
+				E9EAD61E1E4B009E0001E28D /* Info.plist */,
+			);
+			path = "Gesture Recognizer [TEST] WatchKit App";
+			sourceTree = "<group>";
+		};
+		E9EAD6271E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E9EAD6281E4B009E0001E28D /* InterfaceController.swift */,
+				E9EAD62A1E4B009E0001E28D /* ExtensionDelegate.swift */,
+				E9EAD62C1E4B009E0001E28D /* Assets.xcassets */,
+				E9EAD62E1E4B009E0001E28D /* Info.plist */,
+			);
+			path = "Gesture Recognizer [TEST] WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9EAD6011E4B009E0001E28D /* Gesture Recognizer [TEST] */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EAD6391E4B009E0001E28D /* Build configuration list for PBXNativeTarget "Gesture Recognizer [TEST]" */;
+			buildPhases = (
+				E9EAD5FE1E4B009E0001E28D /* Sources */,
+				E9EAD5FF1E4B009E0001E28D /* Frameworks */,
+				E9EAD6001E4B009E0001E28D /* Resources */,
+				E9EAD6381E4B009E0001E28D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9EAD6171E4B009E0001E28D /* PBXTargetDependency */,
+			);
+			name = "Gesture Recognizer [TEST]";
+			productName = "Gesture Recognizer [TEST]";
+			productReference = E9EAD6021E4B009E0001E28D /* Gesture Recognizer [TEST].app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9EAD6131E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EAD6351E4B009E0001E28D /* Build configuration list for PBXNativeTarget "Gesture Recognizer [TEST] WatchKit App" */;
+			buildPhases = (
+				E9EAD6121E4B009E0001E28D /* Resources */,
+				E9EAD6341E4B009E0001E28D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9EAD6261E4B009E0001E28D /* PBXTargetDependency */,
+			);
+			name = "Gesture Recognizer [TEST] WatchKit App";
+			productName = "Gesture Recognizer [TEST] WatchKit App";
+			productReference = E9EAD6141E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E9EAD6221E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9EAD6311E4B009E0001E28D /* Build configuration list for PBXNativeTarget "Gesture Recognizer [TEST] WatchKit Extension" */;
+			buildPhases = (
+				E9EAD61F1E4B009E0001E28D /* Sources */,
+				E9EAD6201E4B009E0001E28D /* Frameworks */,
+				E9EAD6211E4B009E0001E28D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gesture Recognizer [TEST] WatchKit Extension";
+			productName = "Gesture Recognizer [TEST] WatchKit Extension";
+			productReference = E9EAD6231E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9EAD5FA1E4B009E0001E28D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Thomas Sillmann";
+				TargetAttributes = {
+					E9EAD6011E4B009E0001E28D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2S49FR3REP;
+						ProvisioningStyle = Automatic;
+					};
+					E9EAD6131E4B009E0001E28D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2S49FR3REP;
+						ProvisioningStyle = Automatic;
+					};
+					E9EAD6221E4B009E0001E28D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2S49FR3REP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E9EAD5FD1E4B009E0001E28D /* Build configuration list for PBXProject "Gesture Recognizer [TEST]" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9EAD5F91E4B009E0001E28D;
+			productRefGroup = E9EAD6031E4B009E0001E28D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9EAD6011E4B009E0001E28D /* Gesture Recognizer [TEST] */,
+				E9EAD6131E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit App */,
+				E9EAD6221E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9EAD6001E4B009E0001E28D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EAD6101E4B009E0001E28D /* LaunchScreen.storyboard in Resources */,
+				E9EAD60D1E4B009E0001E28D /* Assets.xcassets in Resources */,
+				E9EAD60B1E4B009E0001E28D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EAD6121E4B009E0001E28D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EAD61D1E4B009E0001E28D /* Assets.xcassets in Resources */,
+				E9EAD61B1E4B009E0001E28D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EAD6211E4B009E0001E28D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EAD62D1E4B009E0001E28D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9EAD5FE1E4B009E0001E28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EAD6081E4B009E0001E28D /* ViewController.swift in Sources */,
+				E9EAD6061E4B009E0001E28D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9EAD61F1E4B009E0001E28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EAD62B1E4B009E0001E28D /* ExtensionDelegate.swift in Sources */,
+				E9EAD6291E4B009E0001E28D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9EAD6171E4B009E0001E28D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9EAD6131E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit App */;
+			targetProxy = E9EAD6161E4B009E0001E28D /* PBXContainerItemProxy */;
+		};
+		E9EAD6261E4B009E0001E28D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9EAD6221E4B009E0001E28D /* Gesture Recognizer [TEST] WatchKit Extension */;
+			targetProxy = E9EAD6251E4B009E0001E28D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9EAD6091E4B009E0001E28D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9EAD60A1E4B009E0001E28D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9EAD60E1E4B009E0001E28D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9EAD60F1E4B009E0001E28D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E9EAD6191E4B009E0001E28D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9EAD61A1E4B009E0001E28D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9EAD62F1E4B009E0001E28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9EAD6301E4B009E0001E28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9EAD6321E4B009E0001E28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 2S49FR3REP;
+				INFOPLIST_FILE = "Gesture Recognizer [TEST] WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thomassillmann.Gesture-Recognizer--TEST-.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		E9EAD6331E4B009E0001E28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 2S49FR3REP;
+				INFOPLIST_FILE = "Gesture Recognizer [TEST] WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thomassillmann.Gesture-Recognizer--TEST-.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		E9EAD6361E4B009E0001E28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2S49FR3REP;
+				IBSC_MODULE = Gesture_Recognizer__TEST__WatchKit_Extension;
+				INFOPLIST_FILE = "Gesture Recognizer [TEST] WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thomassillmann.Gesture-Recognizer--TEST-.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		E9EAD6371E4B009E0001E28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2S49FR3REP;
+				IBSC_MODULE = Gesture_Recognizer__TEST__WatchKit_Extension;
+				INFOPLIST_FILE = "Gesture Recognizer [TEST] WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thomassillmann.Gesture-Recognizer--TEST-.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		E9EAD63A1E4B009E0001E28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2S49FR3REP;
+				INFOPLIST_FILE = "Gesture Recognizer [TEST]/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thomassillmann.Gesture-Recognizer--TEST-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E9EAD63B1E4B009E0001E28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2S49FR3REP;
+				INFOPLIST_FILE = "Gesture Recognizer [TEST]/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.thomassillmann.Gesture-Recognizer--TEST-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9EAD5FD1E4B009E0001E28D /* Build configuration list for PBXProject "Gesture Recognizer [TEST]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EAD62F1E4B009E0001E28D /* Debug */,
+				E9EAD6301E4B009E0001E28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9EAD6311E4B009E0001E28D /* Build configuration list for PBXNativeTarget "Gesture Recognizer [TEST] WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EAD6321E4B009E0001E28D /* Debug */,
+				E9EAD6331E4B009E0001E28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9EAD6351E4B009E0001E28D /* Build configuration list for PBXNativeTarget "Gesture Recognizer [TEST] WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EAD6361E4B009E0001E28D /* Debug */,
+				E9EAD6371E4B009E0001E28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9EAD6391E4B009E0001E28D /* Build configuration list for PBXNativeTarget "Gesture Recognizer [TEST]" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9EAD63A1E4B009E0001E28D /* Debug */,
+				E9EAD63B1E4B009E0001E28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9EAD5FA1E4B009E0001E28D /* Project object */;
+}
