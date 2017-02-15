@@ -18,7 +18,7 @@
                             <gestureRecognizers>
                                 <tapGestureRecognizer id="i2f-C6-bjR">
                                     <connections>
-                                        <action selector="handleGestureWithGestureRecognizer:" destination="vlC-f8-Ix0" id="Mbe-hR-6hJ"/>
+                                        <action selector="handleGestureWithGestureRecognizer:" destination="vlC-f8-Ix0" id="0pg-05-18s"/>
                                     </connections>
                                 </tapGestureRecognizer>
                                 <longPressGestureRecognizer id="DX4-vx-6PC">
@@ -55,7 +55,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="236" y="83"/>
+            <point key="canvasLocation" x="615" y="235"/>
         </scene>
     </scenes>
 </document>
